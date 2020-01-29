@@ -25,12 +25,10 @@ document.querySelector('#remove-all').addEventListener('click', function(e) {
     })
 })
 
-
-
-
-
-
-
+// input search text
+document.querySelector('input#search-text').addEventListener('input', function(e) {
+    console.log(e.target.value)
+})
 
 
 
